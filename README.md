@@ -12,6 +12,7 @@ The game features a custom-built JavaFX Game Engine, entity component interactio
 
 ## Author
 **Mohammed Squalli Houssaini**
+
 *L3 MIAGE (Computer Science and Business Management) at the University of Bordeaux*
 
 
@@ -55,12 +56,12 @@ This project was designed with strong **OOP principles** to ensure maintainabili
    ./gradlew run
    ```
 
-### ⌨️ Controls
+### Controls
 * **Arrow Keys** (`↑`, `↓`, `←`, `→`): Move the gardener.
 * **Escape** (`Esc`): Exit the game.
 * *Note*: Insecticides are used automatically upon collision with an insect if available in the inventory.
 
-## 📁 Project Structure
+## Project Structure
 ```text
 src/main/java/fr/ubx/poo/ubgarden/
 ├── game/
@@ -72,8 +73,4 @@ src/main/java/fr/ubx/poo/ubgarden/
 │   ├── launcher/     # Configuration & Map parsing (.properties files)
 │   └── view/         # JavaFX rendering, Sprite and Image factories
 └── Main.java         # Application Entry Point
-```
-
-## 📜 License
-This project is intended for educational purposes and portfolio demonstration. 
 ```
